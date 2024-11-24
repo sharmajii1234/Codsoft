@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Responsive Landing Page Islands</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Travel</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Hotels</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class='main'>
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/borabora.jpg" alt="" class="islands__bg">
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">Islands</h2>
+                                <h1 class="islands__title">Bora Bora</h1>
+                                <p class="islands__description">Small South Pacific island northwest of Tahiti in French Polynesia, surrounded by motus.</p>
+                                <a href="https://boraboraexplorer.com/" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>
+                            <div class="islands__video">
+                                <div class="islands__video-content">
+                                    <i class='bx bx-play-circle islands__video-icon'></i>
+                                </div>
+                            </div> 
+                        </div>
+                    </section>
+
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/bali.jpg" alt="" class="islands__bg">
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">Islands</h2>
+                                <h1 class="islands__title">Bali</h1>
+                                <p class="islands__description">It is an Indonesian island known and beautiful for its lush active volcanic mountains.</p>
+                                <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>
+                            <div class="islands__video">
+                                <div class="islands__video-content">
+                                    <i class='bx bx-play-circle islands__video-icon'></i>
+                                </div>
+                            </div>  
+                        </div>
+                    </section>
+                    
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/palawan.jpg" alt="" class="islands__bg">
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">Islands</h2>
+                                <h1 class="islands__title">Palawan</h1>
+                                <p class="islands__description">Also known as La Paragua, it is the largest island in the province of Palawan.</p>
+                                <a href="https://www.getyourguide.com/-l973/?cmp=bing&cmp=bing&ad_id=78684005275181&adgroup_id=1258941462180575&bid_match_type=be&campaign_id=710124501&device=c&feed_item_id=&keyword=palawan%20trip&loc_interest_ms=149&loc_physical_ms=154729&match_type=e&msclkid=d1f8574aa4cd19cc7220318603eebb15&network=o&partner_id=CD951&target_id=kwd-78684209558822&utm_adgroup=lc%3D973%3Apalawan%7Cfn%3Df3%7Cci%3D937%3Athings%20to%20do&utm_campaign=dc%3D65%3Aph%7Clc%3D973%3Apalawan%7Cct%3Dcore%7Cln%3D29%3Aen%7Ctc%3Dall&utm_keyword=palawan%20trip&utm_medium=paid_search&utm_query=explore%20palawan&utm_source=bing" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>
+                            <div class="islands__video">
+                                <div class="islands__video-content">
+                                    <i class='bx bx-play-circle islands__video-icon'></i>
+                                </div>
+                            </div>  
+                        </div>
+                    </section>
+
+                    <div class="islands__popup" id="popup">
+                        <div>
+                            <div class="islands__popup-close" id="popup-close">
+                                <i class='bx bx-x'></i>
+                            </div>
+                            <iframe class="islands__popup-video" src="https://www.youtube.com/embed/JrU6bsuNU7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls gallery-thumbs">
+                <div class="controls__container swiper-wrapper">
+                    <img src="assets/img/borabora.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/bali.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/palawan.jpg" alt="" class="controls__img swiper-slide">
+                </div>
+            </div>
+        </main>
+        <script src="assets/js/gsap.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
