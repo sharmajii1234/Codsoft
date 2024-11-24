@@ -1,0 +1,16 @@
+gsap.from("h3",{
+    x:-50,
+    y:-50,
+    color:"blue",
+    opacity:0,
+    duration:1,
+    scale:10
+})
+gsap.from("h1",{
+    x:50,
+    y:-50,
+    color:"blue",
+    opacity:0,
+    duration:1,
+    scale:50
+})
