@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.cal {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cal-keys{
+    margin-top: 200px;
+}
+
+#display {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    border-bottom: 2px solid #000000;
+    resize: none;
+    outline: none;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.btn button {
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(43, 41, 41);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn button:hover {
+    background-color: #ddd;
+}
+
+.btn button:active {
+    background-color: #ccc;
+}
+
+#btn0{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+#btnac,#delete,#btnper{
+    background-color: #7c7777;
+    color: #fff;
+}
+
+#btnadd, #btnsub, #btnmul, #btndiv ,#btneq{
+    background-color: #ffab02;
+}
+
